@@ -17,34 +17,34 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="205" sectionHeaderHeight="28" sectionFooterHeight="28" id="d9q-qt-aHL">
+                                <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="217" sectionHeaderHeight="28" sectionFooterHeight="28" id="d9q-qt-aHL">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <prototypes>
-                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="205" id="owM-nj-6tK">
-                                            <rect key="frame" x="0.0" y="28" width="320" height="205"/>
+                                        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedCell" rowHeight="217" id="owM-nj-6tK" customClass="FeedCell" customModule="instagram" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="28" width="320" height="217"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="owM-nj-6tK" id="mkd-bL-Xhw">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="216.5"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="KZk-pm-SL2">
+                                                        <rect key="frame" x="8" y="37" width="304" height="159.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EQ1-Ob-9fY">
-                                                        <rect key="frame" x="8" y="8" width="76" height="21"/>
+                                                        <rect key="frame" x="16" y="8" width="76" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="KZk-pm-SL2">
-                                                        <rect key="frame" x="8" y="37" width="304" height="159.5"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    </imageView>
                                                 </subviews>
                                             </tableViewCellContentView>
                                             <connections>
-                                                <outlet property="myLabel" destination="EQ1-Ob-9fY" id="XiH-bs-nwo"/>
-                                                <outlet property="posterLabel" destination="KZk-pm-SL2" id="mFJ-8P-gX9"/>
+                                                <outlet property="myLabel" destination="EQ1-Ob-9fY" id="1rk-8U-F3X"/>
+                                                <outlet property="posterLabel" destination="KZk-pm-SL2" id="TDJ-9u-gjR"/>
                                             </connections>
                                         </tableViewCell>
                                     </prototypes>
@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="84" y="247"/>
+            <point key="canvasLocation" x="84" y="252"/>
         </scene>
     </scenes>
 </document>
