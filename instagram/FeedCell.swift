@@ -9,12 +9,13 @@
 import UIKit
 
 class FeedCell: UITableViewCell {
-
+    
     @IBOutlet weak var myLabel: UILabel!
     
-    @IBOutlet weak var posterLabel: UIImageView!
     
-    override func awakeFromNib() {
+    @IBOutlet weak var posterLabel: UIImageView!
+
+        override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
